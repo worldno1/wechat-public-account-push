@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "ed8543f3c6a50405b8a473cf61df75c2",
 
     // 模板消息id
-    TEMPLATE_ID: "s_w2_X9WYagPw34Sx33NiF8DDQVeSZW9Eae73mJOC9A",
+    TEMPLATE_ID: "hHRR0tAfjCOHXK9gcD9pA6UTD39OgqCpt45kl1ENhYo",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "s_w2_X9WYagPw34Sx33NiF8DDQVeSZW9Eae73mJOC9A",
+    CALLBACK_TEMPLATE_ID: "hHRR0tAfjCOHXK9gcD9pA6UTD39OgqCpt45kl1ENhYo",
 
 
     /**
@@ -40,10 +40,8 @@ export const config = {
 
     // 所在省份
     PROVINCE: "湖南",
-        PROVINCE: "福建",
     // 所在城市
     CITY: "娄底",
-        CITY: "三明",
 
     /** 重要节日相关 */
 
@@ -90,7 +88,7 @@ export const config = {
       * */
     SLOT_LIST: [
       // 这样配置的话，就会每次发送这句话
-      {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+      {"keyword": "encourage_oneself", contents: "要记得微笑!},
       // 这样配置的话，就会每次随机选一句话发送
       {"keyword": "lover_prattle", contents: [
         "因为太喜欢你，所以看谁都像是情敌。",
